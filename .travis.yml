@@ -22,8 +22,8 @@ addons:
   sonarcloud:
     organization: "AT-NicolasMetivier"
     token:
-      secure: projettest  # encrypted value of your token
+      secure: CnessPluginSonarFramaC  # encrypted value of your token
 # Script to execute.
 
 script:
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=at-nicolasmetivier-github -Dsonar.login=d217f2a7b06684f932ec72bbc294e27e87d9c361
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=at-nicolasmetivier-github -Dsonar.login=d346d75a4f5ef46a91607cbce4bfc7227ee03841
